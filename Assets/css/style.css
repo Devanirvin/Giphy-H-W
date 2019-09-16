@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+	background: burlywood;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-transform: uppercase;
+    text-align: center;
+}
+  
+h1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 100px;
+    color: #fff;
+    float: left;
+}
+
+
+#buttonsView {
+	display: inline;
+}
+
+#gifsView {
+	display: inline;
+	margin-bottom: 80px;
+}
+
+.gif {
+	cursor: crosshair;
+}
+
+
+button {
+	background: #fff;
+	margin: 5px;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+}
+
+textarea:focus {
+  border-bottom: 2px solid #fff;
+  -webkit-box-shadow: 0 2px 0 0 #fff;
+  -moz-box-shadow: 0 2px 0 0 #fff;
+  box-shadow: 0 2px 0 0 #fff;
+}
